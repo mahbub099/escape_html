@@ -1,0 +1,498 @@
+@font-face{
+	src:url(../fonts/brandon_bld.ttf);
+	font-family: brandon_bld;
+}
+@font-face{
+	src:url(../fonts/brandon_light.ttf);
+	font-family: brandon_light;
+}
+@font-face{
+	src:url(../fonts/brandon_med.ttf);
+	font-family: brandon_med;
+}
+@font-face{
+	src:url(../fonts/brandon_reg.ttf);
+	font-family: brandon_reg;
+}
+@font-face{
+	src:url(../fonts/Cubano.ttf);
+	font-family: Cubano;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+/*description start*/
+.description{
+	background-image: url(../images/banner_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;	
+}
+.wraper{
+	/*border: 1px solid red;*/
+	overflow: hidden;
+	width: 66.8%;
+	margin: 0 auto;
+}
+.logo{
+	/*border: 1px solid white;*/
+    width: 18%;
+    float: left;
+    margin-top: 42px;
+
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	/*border: 1px solid white;*/
+	width: 60%;
+    float: right;
+    margin-top: 41px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-family: brandon_med;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    transition: .5s;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #BB8FCE;
+}
+.contant {
+    margin: 0 auto;
+}
+.contant p{
+	font-family: brandon_med;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: -39px;
+
+}
+.contant h1{
+	font-family: brandon_bld;
+    font-size: 66px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.button{
+	background: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 13px 60px;
+    font-family: brandon_bld;
+    font-size: 23px;
+    color: white;
+    margin-top: 21px;
+    margin-left: 332px;
+    margin-bottom: 110px;
+    transition: 1s;
+    cursor: pointer;
+}
+.button:hover{
+	background-color: #BB8FCE;
+}
+/*description end*/
+/*web_development start*/
+.web_development{
+}
+.text{
+	width: 70%;
+    float: left;
+}
+.h_text{
+	font-family: brandon_reg;
+	font-weight: 300;
+	font-size: 60px;
+	margin-bottom: 30px;
+}
+.h_span{
+	font-family: brandon_med;
+	font-weight: 700;
+	font-size: 60px;
+}
+.p_text{
+	font-family: brandon_reg;
+    font-size: 18px;
+    color: #777;
+    letter-spacing: .1px;
+}
+.web_development img{
+	float: right;
+	margin-top: 90px;
+}
+/*web_development end*/
+/*identity_branding start*/
+.identity_branding{
+	background-color: #FAFAFA;
+	padding-top: 7%;
+    padding-bottom: 7%;
+}
+.identity_branding img{
+	float: left;
+	margin-top: 85px;
+}
+.text2{
+	width: 60%;
+    float: right;
+}
+/*identity_branding end*/
+/*service start*/
+.service{
+	margin-top: 5%;
+    margin-bottom: 5%;
+}
+.single{
+	width: 47%;
+    overflow: hidden;
+    /* border: 1px solid; */
+    float: left;
+    margin-top: 2%;
+}
+.single:nth-child(even){
+	margin-left: 6%;
+}
+.single img{
+	float: left;
+	margin-top: 3%;
+}
+.text3{
+	width: 75%;
+    float: right;
+    margin-left: 2%;
+}
+.h_text3{
+	font-family: brandon_med;
+	font-size: 22px;
+}
+.p_text3{
+	font-family: brandon_reg;
+    font-size: 18px;
+    color: #777;
+}
+
+/*service end*/
+/*clients start*/
+.clints{
+	background-color: #FAFAFA;
+	padding-top: 3%;
+    padding-bottom: 5%;
+}
+.ac_heading{
+	/*border: 1px solid;*/
+    text-align: center;
+    line-height: 7px;
+}
+.ac_heading h1{
+	font-family: brandon_light;
+	font-weight: 400;
+	font-size: 60px;
+	color: #222222;
+}
+.ac_heading span{
+	font-family: brandon_bld;
+}
+.ac_heading p{
+	font-family: brandon_reg;
+	font-size: 22px;
+	color: #777777;
+}
+.ac_body{
+	/*border: 1px solid red;*/
+}
+.ac_body_single{
+	/*border: 1px solid blue;*/
+	overflow: hidden;
+}
+.ac_body_single_img{
+	/*border: 1px solid blue;*/
+	width: 24%;
+	float: left;
+	margin-top: 2%;
+}
+.ac_body_single_img img{
+	width: 100%;
+}
+.ac_body_single_text{
+	/*border: 1px solid blue;*/
+    width: 67%;
+    float: left;
+    background-color: #FFFFFF;
+    margin: 4%;
+    position: relative;
+}
+.ac_body_single_text::before{
+	content: '';
+	position: absolute;
+	top: 40%;
+	left: -30px;
+	border-top: 15px solid transparent;
+	border-right: 30px solid white;
+    border-bottom: 15px solid transparent;
+}
+.ac_body_single_p{
+	font-family: brandon_reg;
+	font-size: 26px;
+	color: #777;
+	margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 0;
+}
+.ac_body_single_p1{
+	font-family: brandon_reg;
+	font-size: 20px;
+	color: #7690c5;
+	margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 1%;
+}
+.ac_body_single2{
+	/*border: 1px solid blue;*/
+	overflow: hidden;
+}
+.ac_body_single2_text2{
+	width: 67%;
+    float: left;
+    background-color: #FFFFFF;
+    margin: 4%;
+    position: relative;
+
+}
+.ac_body_single2_text2::after{
+	content: '';
+	position: absolute;
+	top: 40%;
+	right: -30px;
+	border-top: 15px solid transparent;
+	border-left: 30px solid white;
+    border-bottom: 15px solid transparent;
+}
+.ac_body_single2_img{
+	/*border: 1px solid blue;*/
+	width: 24%;
+	float: left;
+	margin-top: 1%;
+	margin-left: 7px;
+}
+.ac_body_single2_img img{
+	width: 100%;
+}
+/*clients end*/
+/*ads start*/
+.ads{
+	color: #FFFFFF;
+	padding: 1%;
+}
+.ads img{
+	padding: 3%;
+}
+/*ads end*/
+/*amazimg_team start*/
+.amazimg_team{
+	background-color: #111111;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+.at_top{
+	text-align: center;
+    line-height: 3px;
+}
+.at_top h1{
+	font-family: brandon_light;
+	font-weight: 400;
+	font-size: 60px;
+	color: #ebebeb;
+}
+.at_top span{
+	font-family: brandon_bld;
+}
+.at_top p{
+	font-family: brandon_reg;
+	font-size: 22px;
+	color: #777777;
+}
+.at_middle{
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.at_single{
+	/*border: 1px solid blue;*/
+    width: 33.3%;
+    margin-top: 8%;
+    float: left;
+}
+.pic_box{
+	width: 80%;
+    /*border: 1px solid wheat;*/
+    margin-left: 9.5%;
+}
+.pic_box img{
+	width: 100%;
+}
+.at_middle_text{
+	text-align: center;
+    margin-top: -20px;
+
+}
+.at_middle_text p{
+	font-family: brandon_bld;
+	font-size: 18px;
+	color: #fff;
+}
+.at_middle_text span{
+	font-family: brandon_reg;
+	font-size: 16px;
+	color: #fff;
+}
+.social_media_icon{
+	padding-left: 25%;
+    margin-top: -15px;
+}
+.social_media_icon img{
+	padding-left: 2%;
+}
+.at_bottom{
+	text-align: center;
+}
+.at_bottom p{
+	font-family: brandon_reg;
+	font-size: 20px;
+	color: #ebebeb;
+}
+/*amazimg_team end*/
+/*say_hellow start*/
+.say_hellow{
+	background-color: #7690C5;
+	padding-top: 5%;
+    padding-bottom: 5%;
+}
+.say_hellow_part1{
+    width: 49%;
+    float: left;
+}
+.say_hellow_text{}
+.say_hellow_text h1{
+	font-family: brandon_light;
+	font-weight: 400;
+	font-size: 60px;
+	color: #fff;
+	margin-bottom: 0;
+}
+.say_hellow_text span{
+	font-family: brandon_bld;
+}
+.say_hellow_text p{
+	font-family: brandon_reg;
+	font-size: 18px;
+	color: #fff;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.say_hellow_contant{
+    overflow: hidden;
+    margin-top: 6%;
+    margin-bottom: 10%;
+}
+.say_hellow_contant_single{
+	overflow: hidden;
+    width: 45%;
+    float: left;
+    padding: 2%;
+	
+}
+.say_hellow_contant_single_img {
+    float: left;
+    margin-top: 2%;
+}
+.say_hellow_contant_single_img img{
+	
+}
+.say_hellow_contant_single_text{
+    float: left;
+    margin-top: -10%;
+    margin-left: 8%;
+}
+.say_hellow_contant_single_text p{
+	font-family: brandon_reg;
+	font-size: 18px;
+	color: #fff;
+	padding: 2px;
+}
+.say_hellow_part2{
+    width: 50%;
+    float: left;
+    margin-top: 7%;
+}
+.say_hellow_part2 input{
+	font-family: brandon_med;
+    font-size: 18px;
+    color: #bbbbbb;
+    width: 435px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    outline: 0;
+    margin-bottom: 22px;
+    padding-left: 20px;
+    border: 1px solid #cccccc;
+    line-height: 24px;
+}
+.say_hellow_part2 textarea{
+	font-family: brandon_med;
+    font-size: 18px;
+    color: #bbbbbb;
+    width: 435px;
+    height: 190px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    outline: 0;
+    border: 0;
+    border: 1px solid #cccccc;
+    padding: 20px 0 0 20px;
+    line-height: 24px;
+}
+.say_hellow_part2 button{
+	font-family: brandon_bld;
+    font-size: 18px;
+    color: #504949;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 0;
+    margin-left: 91%;
+}
+/*say_hellow start*/
+
+/*footer start*/
+footer{
+	background-color: #7690C5;
+	text-align: center;
+	min-height: 85px;
+	border-top: .1px solid wheat;
+}
+.p_text4{
+	font-family: brandon_reg;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 4%;
+    display: block;
+}
+/*footer end*/
