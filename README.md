@@ -1,3 +1,3 @@
 # escape
 escape demo website(for practices)
-https://mahbubrahman99.github.io/escape/.
+https://mahbub099.github.io/escape_html/
